@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
 
 function Products() {
   return (
-    <h1>Products page
-      
-    </h1>
-  )
+    <section>
+      <h1>Products page</h1>
+      <ul>
+        <li>Product 1</li>
+        <li>Product 1</li>
+        <li>Product 1</li>
+      </ul>
+    </section>
+  );
 }
 
-export default Products
+export default Products;
