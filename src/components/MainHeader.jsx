@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Classes from "./mainHeader.module.css";
+import classes from "./mainHeader.module.css";
 
 function MainHeader() {
   return (
-    <header className={Classes.header}>
+    <header className={classes.header}>
       <nav>
         <ul>
           <li>
