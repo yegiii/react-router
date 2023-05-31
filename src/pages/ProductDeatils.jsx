@@ -1,7 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 
 function ProductDeatils() {
-  return <h1>ProductDeatils</h1>;
+  const params = useParams();
+
+  return (
+    <Fragment>
+      <h1>ProductDeatils</h1>
+      <p>{params.productId}</p>
+    </Fragment>
+  );
 }
 
 export default ProductDeatils;
